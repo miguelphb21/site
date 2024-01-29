@@ -5,15 +5,25 @@ body{
     color: rgb(110, 36, 13);
     
 }
+.topo a{
+    text-decoration: none;
+    color:darkred;
+
+}
+.topo a:hover{
+    color:rgb(78, 0, 0);
+}
 .menu{
     display: flex;
     list-style: none;
-    margin-left: 600px;
+    margin-left: auto;
 }
 .navegacao{
     display: flex;
 }
-
+.menu a:hover{
+    color:rgb(70, 0, 0);
+}
 article{
     background-color: #ffffff;
     padding: 30px;
@@ -40,4 +50,7 @@ article{
     background-color: dodgerblue;
     text-decoration: none;
 }
-
+li{
+    margin-right: 20px;
+    
+}
