@@ -5,59 +5,39 @@ body{
     color: rgb(110, 36, 13);
     
 }
-header{
-    background-color: rgba(56, 54, 54, 0.322);
-    padding-bottom: 10px;
-    font-size:40px ;
-    padding: 100px;
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: 600px;
 }
+.navegacao{
+    display: flex;
+}
+
 article{
-    background-color: #ffffff ; 
+    background-color: #ffffff;
     padding: 30px;
     margin-bottom: 30px;
 }
-header a {
-    color: rgb(110, 36, 13);
+.materia{
+    color: rgb(255, 255, 255);
     text-decoration:none;
 }
-article a{
-    color: rgb(155, 0, 59);
-    text-decoration:none;
-}
-footer {
+.rodape{
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.247);
     font-size: 30px;
     text-decoration: none;
 }
-footer a{
+.rodape a{
     color: rgb(110, 36, 13);
     text-decoration: none;
 }
-main h1{
-    margin-left: 30px;
-    font-size: 30px;
+.article{
+    align-items: center;
 }
-article h2{
-    font-size: 50px;
-    font-size: 30px;
+.materia{
+    background-color: dodgerblue;
+    text-decoration: none;
 }
-.youtube{
-    margin-left: 10px;
-    font-size: 30px; 
-}
-.netshoes{
-    margin-left: 110px;
-    font-size: 30px;    
-}
-.g1{
-    margin-left: 110px;
-    font-size: 30px; 
-}
-.receitas{
-    margin-left: 110px;
-    font-size: 30px; 
-}
-.rodape{
-    padding: 100px;
-}
+
