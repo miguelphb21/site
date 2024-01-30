@@ -5,33 +5,52 @@ body{
     color: rgb(110, 36, 13);
     
 }
-.topo a{
-    text-decoration: none;
-    color:darkred;
-
+.titulo{
+    text-align:center;
 }
-.topo a:hover{
-    color:rgb(78, 0, 0);
+.texto{
+    text-align: center;
+    margin-bottom: 90px;
+    padding:30px;
 }
 .menu{
     display: flex;
     list-style: none;
     margin-left: auto;
+    font-size: 30px;
+}
+.navegacao h1{
+    font-size:  80px; 
+    margin-right: auto;
+}
+.navegacao a{
+    color:brown;
+    text-decoration: none;
 }
 .navegacao{
     display: flex;
 }
-.menu a:hover{
-    color:rgb(70, 0, 0);
+.navegacao a:hover{
+    color: rgb(53, 4, 4);
 }
-article{
-    background-color: #ffffff;
-    padding: 30px;
-    margin-bottom: 30px;
+li{
+    margin-right: 20px;
 }
 .materia{
+    background-color: #ffffff;
+}
+
+.botao{
     color: rgb(255, 255, 255);
     text-decoration:none;
+    background-color: dodgerblue;
+    margin-right: 450px;
+    display: flex;
+    
+}
+
+.botao:hover{
+    color: darkblue;
 }
 .rodape{
     color: rgb(255, 255, 255);
@@ -43,14 +62,5 @@ article{
     color: rgb(110, 36, 13);
     text-decoration: none;
 }
-.article{
-    align-items: center;
-}
-.materia{
-    background-color: dodgerblue;
-    text-decoration: none;
-}
-li{
-    margin-right: 20px;
-    
-}
+
+
