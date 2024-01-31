@@ -1,3 +1,4 @@
+/* MOD - CORPO(BODY)*/
 body{
     background-color: rgb(0, 0, 0);
     font-family:fantasy;
@@ -5,29 +6,35 @@ body{
     color: rgb(110, 36, 13);
     
 }
+/* MOD - TOPO*/
 .topo{
     background-color: rgb(5, 5, 5);
 }
+/* MOD - IMAGEM TOPO*/
 .imgtop img{
     width: 150px;
     margin-left: 30px;
     margin-top: 30px;
 }
+/* MOD - TÍTULO*/
 .titulo{
     text-align:center;
     display:block;
 }
+/* MOD - TEXTO*/
 .texto{
     text-align: center;
     margin-bottom: 90px;
     padding:30px;
 }
+/* MOD - MENU*/
 .menu{
     list-style: none;
     margin-left: auto;
     font-size: 30px;
     display: flex;
 }
+/* MOD - NAVEGAÇÃO*/
 .navegacao h1{
     font-size:  80px; 
     margin-right: auto;
@@ -42,12 +49,15 @@ body{
 .navegacao a:hover{
     color: rgb(53, 4, 4);
 }
+/* MOD - LISTA*/
 li{
     margin-right: 20px;
 }
+/* MOD - MAIN*/
 main{
     padding: 30px;
 }
+/* MOD - MATÉRIA DO SITE*/
 .materia{
     background-color: #ffffff;
     padding: 100px;
@@ -65,6 +75,7 @@ main{
     width:100%;
     margin-bottom: 15px;
 }
+/* MOD - BOTÃO DO SITE*/
 .botao{
     background-color: brown;
     color:#ffffff;
@@ -77,6 +88,7 @@ main{
     color: rgb(61, 0, 0);
     background-color: rgb(0, 0, 0);
 }
+/* MOD - RODAPÉ DO SITE */
 .rodape{
     color: rgb(121, 27, 27);
     background-color: rgba(0, 0, 0, 0.247);
