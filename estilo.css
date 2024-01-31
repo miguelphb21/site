@@ -1,12 +1,21 @@
 body{
-    background-color: rgba(114, 48, 48, 0.452);
+    background-color: rgb(0, 0, 0);
     font-family:fantasy;
     font-size: 20px;
     color: rgb(110, 36, 13);
     
 }
+.topo{
+    background-color: rgb(5, 5, 5);
+}
+.imgtop img{
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
 .titulo{
     text-align:center;
+    display:block;
 }
 .texto{
     text-align: center;
@@ -14,10 +23,10 @@ body{
     padding:30px;
 }
 .menu{
-    display: flex;
     list-style: none;
     margin-left: auto;
     font-size: 30px;
+    display: flex;
 }
 .navegacao h1{
     font-size:  80px; 
@@ -36,27 +45,44 @@ body{
 li{
     margin-right: 20px;
 }
+main{
+    padding: 30px;
+}
 .materia{
     background-color: #ffffff;
+    padding: 100px;
+    margin:40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
 }
-
+.materia h2{
+    font-size: 40px;
+    text-align: center;
+}
+.materia img{
+    width:100%;
+    margin-bottom: 15px;
+}
 .botao{
-    color: rgb(255, 255, 255);
-    text-decoration:none;
-    background-color: dodgerblue;
-    margin-right: 450px;
-    display: flex;
-    
+    background-color: brown;
+    color:#ffffff;
+    text-decoration: none;
+    padding:15px;
+    display: inline-block;
 }
 
 .botao:hover{
-    color: darkblue;
+    color: rgb(61, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 .rodape{
-    color: rgb(255, 255, 255);
+    color: rgb(121, 27, 27);
     background-color: rgba(0, 0, 0, 0.247);
     font-size: 30px;
     text-decoration: none;
+    text-align: center;
 }
 .rodape a{
     color: rgb(110, 36, 13);
