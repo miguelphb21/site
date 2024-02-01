@@ -12,9 +12,10 @@ body{
 }
 /* MOD - IMAGEM TOPO*/
 .imgtop img{
-    width: 150px;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 200px;
+    color: rgba(165, 42, 42, 0.664);
 }
 /* MOD - TÍTULO*/
 .titulo{
@@ -40,7 +41,7 @@ body{
     margin-right: auto;
 }
 .navegacao a{
-    color:brown;
+    color:rgba(165, 42, 42, 0.664);
     text-decoration: none;
 }
 .navegacao{
@@ -57,14 +58,20 @@ li{
 main{
     padding: 30px;
 }
+/* MOD - GRADE*/
+.grade {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px,1fr));
+    gap: 15px;
+}
 /* MOD - MATÉRIA DO SITE*/
 .materia{
     background-color: #ffffff;
     padding: 100px;
     margin:40px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    display: block;
     width: 500px;
 }
 .materia h2{
@@ -74,6 +81,7 @@ main{
 .materia img{
     width:100%;
     margin-bottom: 15px;
+    border-radius: 15px;
 }
 /* MOD - BOTÃO DO SITE*/
 .botao{
@@ -82,8 +90,8 @@ main{
     text-decoration: none;
     padding:15px;
     display: inline-block;
+    border-radius: 20px;
 }
-
 .botao:hover{
     color: rgb(61, 0, 0);
     background-color: rgb(0, 0, 0);
