@@ -119,7 +119,7 @@ main{
     margin: 20px;
 }
 /* MOD - CAMPO-CONTATOS */
-.campo{
+.campo { 
     display: block;
     width: 100%;
     height: 30px;
@@ -147,8 +147,11 @@ textarea.campo{
     height: 150px;
     padding: 10px;
 }
+/* MOD - MAPA */
 .mapa{
+    align-items: center;
+    padding: 30px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 310px;
+    padding-right: 310px;
 }
