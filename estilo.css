@@ -9,11 +9,13 @@ body{
     font-family:fantasy;
     font-size: 20px;
     color: rgb(110, 36, 13);
-    
 }
 /* MOD - TOPO*/
 .topo{
     background-color: rgb(5, 5, 5);
+    padding: 30px;
+    font-size: 14px;
+    
 }
 /* MOD - IMAGEM TOPO*/
 .imgtop img{
@@ -24,9 +26,11 @@ body{
 }
 /* MOD - TÍTULO*/
 .titulo{
-    text-align:center;
+    text-align:center;                                       
     display:block;
+    font-size: 50px;
 }
+
 /* MOD - TEXTO*/
 .texto{
     text-align: center;
@@ -48,6 +52,9 @@ body{
 .navegacao a{
     color:rgba(165, 42, 42, 0.664);
     text-decoration: none;
+    margin-left:auto;
+    padding: 5px;
+    font-size: 15px;
 }
 .navegacao{
     display: flex;
@@ -57,30 +64,33 @@ body{
 }
 /* MOD - LISTA*/
 li{
-    margin-right: 20px;
+    margin: auto;
+}
+li a{
+    margin-left: -256px;
 }
 /* MOD - MAIN*/
-main{
-    padding: 30px;
-}
+
+
+
 /* MOD - GRADE*/
 .grade {
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
-    gap: 15px;
+    gap: 50px;
 }
 /* MOD - MATÉRIA DO SITE*/
 .materia{
     background-color: #ffffff;
-    padding: 100px;
-    margin:40px;
+    padding: 34px;
+    margin:44px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 320px;
 }
 .materia h2{
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
 }
 .materia img{
@@ -154,4 +164,11 @@ textarea.campo{
     width: 100%;
     padding-left: 310px;
     padding-right: 310px;
+}
+@media (min-width: 768px) {
+    .topo a{font-size: 18px;
+    }
+    .materia h1{
+        font-size: 30px
+    }
 }
